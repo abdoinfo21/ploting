@@ -1,0 +1,34 @@
+object Form1: TForm1
+  Left = 268
+  Height = 412
+  Top = 155
+  Width = 511
+  Caption = 'Form1'
+  ClientHeight = 412
+  ClientWidth = 511
+  LCLVersion = '2.0.6.0'
+  object Button1: TButton
+    Left = 208
+    Height = 25
+    Top = 376
+    Width = 75
+    Caption = 'plot'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Panel1: TPanel
+    Left = 9
+    Height = 359
+    Top = 9
+    Width = 498
+    ClientHeight = 359
+    ClientWidth = 498
+    TabOrder = 1
+    object Image1: TImage
+      Left = 4
+      Height = 349
+      Top = 3
+      Width = 490
+    end
+  end
+end
