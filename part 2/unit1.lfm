@@ -1,0 +1,56 @@
+object Form1: TForm1
+  Left = 186
+  Height = 399
+  Top = 85
+  Width = 618
+  Caption = 'Form1'
+  ClientHeight = 399
+  ClientWidth = 618
+  OnResize = FormResize
+  LCLVersion = '2.0.6.0'
+  object Button1: TButton
+    Left = 19
+    Height = 25
+    Top = 15
+    Width = 75
+    Caption = 'Button1'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object TrackBar1: TTrackBar
+    Left = 228
+    Height = 25
+    Top = 15
+    Width = 356
+    Max = 100
+    OnChange = TrackBar1Change
+    Position = 30
+    TabOrder = 1
+  end
+  object TrackBar2: TTrackBar
+    Left = 228
+    Height = 25
+    Top = 57
+    Width = 356
+    Max = 100
+    OnChange = TrackBar2Change
+    Position = 35
+    TabOrder = 2
+  end
+  object Label1: TLabel
+    Left = 136
+    Height = 15
+    Top = 17
+    Width = 34
+    Caption = 'Label1'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 136
+    Height = 15
+    Top = 57
+    Width = 34
+    Caption = 'Label2'
+    ParentColor = False
+  end
+end
